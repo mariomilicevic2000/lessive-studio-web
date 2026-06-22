@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm install *)",
+      "Bash(pnpm exec *)",
+      "Bash(node node_modules/next/dist/bin/next build)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3456/)",
+      "Read(//tmp/**)",
+      "Bash(node tmp_debug.mjs)",
+      "Bash(curl -s http://localhost:3456/)",
+      "Bash(node tmp_screenshot.mjs)",
+      "PowerShell(pnpm add next-intl)",
+      "WebSearch",
+      "Bash(pnpm add *)"
+    ]
+  }
+}

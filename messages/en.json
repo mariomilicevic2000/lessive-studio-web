@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "Laundry Service Omiš & Tugare | Lessive Studio — apartments, hotels, delivery",
+    "ogTitle": "Laundry Service Omiš & Tugare | Lessive Studio",
+    "description": "Industrial laundry in Tugare near Omiš. Washing of bed linen and towels for apartments and villas on the Poljica Riviera, dry cleaning and commercial laundry for hotels and restaurants, with delivery across Omiš, Dugi Rat and Split.",
+    "ogImageAlt": "Industrial laundry facility — Lessive Studio Tugare",
+    "keywords": [
+      "laundry service Omiš",
+      "laundry Tugare",
+      "industrial laundry Croatia",
+      "linen washing for apartments",
+      "towel washing apartments",
+      "laundry service Split",
+      "dry cleaning Omiš",
+      "hotel laundry service",
+      "restaurant laundry service",
+      "laundry Poljica",
+      "laundry Poljica Riviera",
+      "laundry pickup Omiš Split",
+      "eco-friendly laundry",
+      "laundry for holiday rentals"
+    ]
+  },
+  "nav": {
+    "hero": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "about": "About",
+    "results": "Results",
+    "location": "Location",
+    "faq": "FAQ",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "clients": "Clients"
+  },
+  "header": {
+    "cta": "REQUEST A QUOTE",
+    "menu": "Menu",
+    "language": "Language"
+  },
+  "hero": {
+    "imageAlt": "Industrial laundry facility",
+    "taglineMain": "The season is stressful.",
+    "taglineSub": "Leave that worry to us.",
+    "h1": "Industrial laundry service",
+    "lead": "Specialised in apartments and villas on the Poljica Riviera — with reliable processing for hotels, restaurants and other hospitality businesses too.",
+    "priorityLabel": "PRIORITY",
+    "priorityValue": "Apartments & villas",
+    "radiusLabel": "DELIVERY RADIUS",
+    "radiusValue": "15 km",
+    "turnaroundLabel": "TURNAROUND",
+    "turnaroundValue": "24 h",
+    "experienceLabel": "EXPERIENCE",
+    "experienceValue": "12 years"
+  },
+  "services": {
+    "heading": "Processing flow",
+    "annotation": "PROCESS / FROM INTAKE TO DELIVERY",
+    "specTitle": "SPECIFICATIONS",
+    "serviceTypeLabel": "Service type",
+    "descriptionLabel": "Description",
+    "steps": [
+      {
+        "title": "Intake and sorting",
+        "description": "Textiles are received and sorted by material type, level of soiling and processing requirements.",
+        "serviceTitle": "Laundry washing",
+        "serviceDescription": "Professional washing of bed linen, towels and other textiles for your accommodation units."
+      },
+      {
+        "title": "Industrial-scale processing",
+        "description": "High-capacity washing systems with temperature and detergent control to specification.",
+        "serviceTitle": "Dry cleaning",
+        "serviceDescription": "Specialised dry cleaning for curtains, carpets and delicate fabrics."
+      },
+      {
+        "title": "Quality control and inspection",
+        "description": "Quality control procedures ensuring compliance with hygiene and aesthetic standards.",
+        "serviceTitle": "Commercial laundry",
+        "serviceDescription": "Regular washing and upkeep of textiles for hospitality businesses and hotels."
+      },
+      {
+        "title": "Packing and dispatch",
+        "description": "Finished textiles are stacked into carts and prepared for delivery according to the scheduled route.",
+        "serviceTitle": "Delivery",
+        "serviceDescription": "Timely delivery of finished textiles straight to your property."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Service pricing",
+    "annotation": "PRICE STRUCTURE / UNITS AND SPECIFICATIONS",
+    "itemHeader": "ITEM",
+    "unitHeader": "UNIT",
+    "priceHeader": "PRICE",
+    "footerNote": "* ALL PRICES INCLUDE VAT / MINIMUM ORDER TERMS APPLY",
+    "categories": [
+      {
+        "id": "apartmani",
+        "name": "Apartments",
+        "items": [
+          { "name": "Bed linen set", "description": "Washing and ironing", "price": "15,00 €", "unit": "per set" },
+          { "name": "Towels", "description": "Washing and drying", "price": "2,50 €", "unit": "per piece" },
+          { "name": "Curtains", "description": "Dry cleaning", "price": "8,00 €", "unit": "per m²" },
+          { "name": "Blankets and duvets", "description": "Deep washing", "price": "12,00 €", "unit": "per piece" },
+          { "name": "Pillowcases", "description": "Washing and ironing", "price": "1,50 €", "unit": "per piece" },
+          { "name": "Bed covers", "description": "Washing and drying", "price": "10,00 €", "unit": "per piece" },
+          { "name": "Mattress toppers", "description": "Deep cleaning", "price": "20,00 €", "unit": "per piece" },
+          { "name": "Kitchen cloths", "description": "Washing and drying", "price": "1,00 €", "unit": "per piece" }
+        ]
+      },
+      {
+        "id": "poslovni",
+        "name": "Business premises",
+        "items": [
+          { "name": "Tablecloths", "description": "Washing and ironing", "price": "5,00 €", "unit": "per piece" },
+          { "name": "Workwear", "description": "Washing and ironing", "price": "4,00 €", "unit": "per piece" },
+          { "name": "Monthly package", "description": "For restaurants", "price": "250,00 €", "unit": "per month" },
+          { "name": "Kitchen cloths", "description": "Washing and drying", "price": "1,20 €", "unit": "per piece" },
+          { "name": "Napkins", "description": "Washing and ironing", "price": "0,80 €", "unit": "per piece" },
+          { "name": "Uniforms", "description": "Washing and ironing", "price": "6,00 €", "unit": "per piece" },
+          { "name": "Curtains for business premises", "description": "Dry cleaning", "price": "10,00 €", "unit": "per m²" }
+        ]
+      },
+      {
+        "id": "posebno",
+        "name": "Special services",
+        "items": [
+          { "name": "Carpets", "description": "Deep cleaning", "price": "10,00 €", "unit": "per m²" },
+          { "name": "Express service", "description": "Same-day delivery", "price": "+50%", "unit": "on base price" },
+          { "name": "Delivery", "description": "Within a 15 km radius", "price": "5,00 €", "unit": "per delivery" },
+          { "name": "Stain removal", "description": "Special treatment", "price": "3,00 €", "unit": "per stain" },
+          { "name": "Pickup", "description": "Within a 15 km radius", "price": "5,00 €", "unit": "per pickup" },
+          { "name": "Packaging", "description": "Special packaging", "price": "2,00 €", "unit": "per package" },
+          { "name": "Annual subscription", "description": "For regular clients", "price": "-15%", "unit": "on all services" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "heading": "Proven reliability",
+    "annotation": "BUSINESS METRICS / YEARS IN THE INDUSTRY",
+    "imageAlt": "Facility control system",
+    "paragraph": "For more than a decade we have processed textiles for hotels, apartments and hospitality businesses with consistent quality standards and deadlines you can rely on.",
+    "stats": [
+      { "value": "500+", "label": "satisfied clients" },
+      { "value": "12", "label": "years of experience" },
+      { "value": "100%", "label": "satisfaction" },
+      { "value": "24/7", "label": "support" }
+    ]
+  },
+  "caseStudies": {
+    "heading": "Proven results",
+    "annotation": "CASE STUDIES / ILLUSTRATIVE OVERVIEW",
+    "items": [
+      {
+        "number": "01",
+        "category": "APARTMENTS AND VILLAS, 40 UNITS",
+        "stat": "0",
+        "statLabel": "missed handovers in 12 months",
+        "title": "Seasonal scalability for hosts",
+        "description": "Processing capacity is adapted to peak tourist season without the owner needing to hire extra staff to wash between guests."
+      },
+      {
+        "number": "02",
+        "category": "VILLA WITH POOL, PRIVATE HOST",
+        "stat": "<6h",
+        "statLabel": "linen turnaround between arrivals",
+        "title": "Fast turnaround for same-day check-in/check-out",
+        "description": "Arranged priority slots mean bed linen and towels are ready even before the next guests arrive."
+      },
+      {
+        "number": "03",
+        "category": "HOTEL, 80 ROOMS",
+        "stat": "-18%",
+        "statLabel": "annual linen cost",
+        "title": "Consolidation of linen supply",
+        "description": "By switching from three suppliers to a single contract, the hotel cut costs and standardised linen quality across all rooms."
+      }
+    ]
+  },
+  "clientLogos": {
+    "annotation": "TRUSTED BY APARTMENTS, VILLAS AND HOSPITALITY BUSINESSES"
+  },
+  "location": {
+    "heading": "Location and access",
+    "annotation": "FACILITY LOCATION / OPENING HOURS",
+    "statusNote": "STATUS BASED ON FACILITY OPENING HOURS",
+    "addressTitle": "FACILITY ADDRESS",
+    "copyAddress": "Copy address",
+    "addressCopied": "Address copied",
+    "directionsLabel": "Get directions",
+    "hoursLabel": "Opening hours",
+    "contactTitle": "CONTACT",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "dayMonFri": "MON-FRI",
+    "daySat": "SAT",
+    "daySun": "SUN",
+    "closed": "CLOSED",
+    "mapNote": "APPROXIMATE DELIVERY AREA — POLJICA AND THE OMIŠ RIVIERA (ŽRNOVNICA TO OMIŠ)"
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "annotation": "ANSWERS / SERVICES, DELIVERY AND SERVICE AREA",
+    "footerNote": "CAN'T FIND YOUR ANSWER? GET IN TOUCH — SECTION /12/",
+    "items": [
+      {
+        "question": "Where is your laundry located?",
+        "answer": "Our industrial facility is at Trg poljičkih knezova 1, 21252 Tugare, in the heart of Poljica above Omiš. We are just a few minutes' drive from Omiš and Dugi Rat and about twenty minutes from Split, so we cover the entire Poljica Riviera and the surrounding area."
+      },
+      {
+        "question": "Do you offer delivery and pickup of laundry in Omiš, Split and the surrounding area?",
+        "answer": "Yes. We collect and deliver laundry free of charge within a 15 km radius of our facility in Tugare, which includes Omiš, Dugi Rat, Stanići, Mimice, Krilo Jesenice, Podstrana and the suburbs of Split. For more distant locations on the Makarska Riviera and in Split we arrange delivery on a schedule."
+      },
+      {
+        "question": "Do you wash bed linen and towels for apartments and holiday homes?",
+        "answer": "Apartments and villas are our priority. We specialise in washing, drying and ironing bed linen sets, sheets, pillowcases and towels for hosts on the Poljica Riviera. In season we offer fast turnover between bookings with a 24-hour turnaround so your units are always ready for new guests."
+      },
+      {
+        "question": "How quickly can I get my laundry back?",
+        "answer": "The standard turnaround is 24 hours. For urgent situations we offer same-day delivery, ideal when an apartment or villa has an unannounced guest changeover. The express service is charged at a surcharge on the base price."
+      },
+      {
+        "question": "Do you work with hotels, restaurants and other hospitality businesses?",
+        "answer": "Yes. Alongside apartments we regularly maintain textiles for hotels, restaurants, taverns and cafés around Omiš and Split — tablecloths, napkins, workwear, uniforms and kitchen cloths. For hospitality businesses we offer monthly packages with a fixed price and a regular pickup schedule."
+      },
+      {
+        "question": "Do you offer dry cleaning of delicate materials?",
+        "answer": "We do. In addition to industrial laundry we also dry clean curtains, carpets, blankets, duvets and delicate fabrics that cannot be washed conventionally. We can collect and return carpets and curtains together with your regular laundry delivery."
+      },
+      {
+        "question": "Do you use eco-friendly washing products?",
+        "answer": "Yes. On request we wash with eco-friendly products that are safe for children, allergy sufferers and sensitive skin, while also saving water and energy. This is especially valued by families with children and by hosts who want to offer guests hygienically impeccable yet gentle textiles."
+      },
+      {
+        "question": "How is the price determined and are there discounts for regular clients?",
+        "answer": "Prices are transparent and listed per item in our price list, and all of them include VAT. Regular clients — apartments, villas and hospitality businesses — receive up to 15% off through an annual subscription and fixed monthly packages. For larger volumes and seasonal cooperation we prepare a tailored quote."
+      },
+      {
+        "question": "What are your opening hours?",
+        "answer": "The facility in Tugare is open Monday to Friday from 08:00 to 18:00 and on Saturday from 08:00 to 14:00, while it is closed on Sundays. You can see the current facility status based on opening hours live on the site, in the Location section."
+      },
+      {
+        "question": "How can I request a quote or arrange cooperation?",
+        "answer": "Fill in the enquiry form in the Contact section or call us on +385 21 123 456, or write to info@lessive-tugare.hr. We will get back to you with a quote tailored to the type of textile, quantities and deadlines, whether you run a single apartment or an entire portfolio of accommodation units."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Request a quote",
+    "annotation": "ENQUIRY FORM / REQUEST FOR QUOTE",
+    "directLabel": "OR CONTACT US DIRECTLY",
+    "nameLabel": "Full name",
+    "required": "Required",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "optional": "Optional",
+    "messageLabel": "Description of needs",
+    "messagePlaceholder": "Describe the scope of work, type of textile, quantities and deadlines",
+    "submit": "SEND ENQUIRY"
+  },
+  "quickContacts": {
+    "call": "CALL",
+    "sms": "SMS",
+    "whatsapp": "WHATSAPP",
+    "viber": "VIBER",
+    "instagram": "INSTAGRAM"
+  },
+  "mobileCallBar": {
+    "call": "CALL",
+    "whatsapp": "WHATSAPP"
+  },
+  "facilityStatus": {
+    "checking": "CHECKING STATUS",
+    "open": "OPEN",
+    "closed": "CLOSED"
+  },
+  "referenceNumber": {
+    "label": "ENQUIRY REFERENCE NUMBER"
+  },
+  "reviews": {
+    "heading": "What our clients say",
+    "annotation": "CLIENT RATINGS AND RECOMMENDATIONS",
+    "ratingLabel": "AVERAGE RATING",
+    "outOf": "out of 5",
+    "basedOn": "based on {count} reviews",
+    "items": [
+      {
+        "author": "Ana Kovačević",
+        "location": "Apartments, Omiš",
+        "rating": 5,
+        "quote": "In peak season the bed linen and towels come back on time, every time. I can welcome guests without worrying about washing between bookings."
+      },
+      {
+        "author": "Marko Babić",
+        "location": "Villa with pool, Stanići",
+        "rating": 5,
+        "quote": "The same-day express changeover saved a booking for me. The linen was ready before the guests even arrived."
+      },
+      {
+        "author": "Ivana Perić",
+        "location": "Host, Dugi Rat",
+        "rating": 5,
+        "quote": "They use eco-friendly products on request — guests regularly comment on how fresh and pleasant the textiles smell, with no harsh scents."
+      },
+      {
+        "author": "Konoba Lavanda",
+        "location": "Restaurant, Omiš",
+        "rating": 4,
+        "quote": "The tablecloths and napkins are always impeccable, and the fixed-price monthly package makes budgeting so much easier for us."
+      },
+      {
+        "author": "Hotel Nautica",
+        "location": "Hotel, Split",
+        "rating": 5,
+        "quote": "Switching to a single supplier standardised the linen quality across all our rooms and cut costs. They are reliable and consistent."
+      },
+      {
+        "author": "Petra Marić",
+        "location": "Apartments, Podstrana",
+        "rating": 5,
+        "quote": "The pickup and delivery save me hours every week. They are professional, punctual and always available to arrange things."
+      }
+    ]
+  }
+}

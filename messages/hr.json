@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "Praonica rublja Omiš & Tugare | Lessive Studio — apartmani, hoteli, dostava",
+    "ogTitle": "Praonica rublja Omiš & Tugare | Lessive Studio",
+    "description": "Industrijska praonica rublja u Tugarama kraj Omiša. Pranje posteljine i ručnika za apartmane i vile na Poljičkoj rivijeri, kemijsko čišćenje i poslovno pranje za hotele i restorane uz dostavu po Omišu, Dugom Ratu i Splitu.",
+    "ogImageAlt": "Industrijski pogon za pranje rublja — Lessive Studio Tugare",
+    "keywords": [
+      "praonica rublja Omiš",
+      "praonica rublja Tugare",
+      "industrijsko pranje rublja",
+      "pranje posteljine za apartmane",
+      "pranje ručnika apartmani",
+      "praonica rublja Split",
+      "kemijsko čišćenje Omiš",
+      "pranje rublja za hotele",
+      "pranje rublja za restorane",
+      "praonica Poljica",
+      "praonica Poljička rivijera",
+      "dostava rublja Omiš Split",
+      "ekološko pranje rublja",
+      "praonica za iznajmljivače"
+    ]
+  },
+  "nav": {
+    "hero": "Početna",
+    "services": "Usluge",
+    "pricing": "Cjenik",
+    "about": "O nama",
+    "results": "Rezultati",
+    "location": "Lokacija",
+    "faq": "FAQ",
+    "reviews": "Recenzije",
+    "contact": "Kontakt",
+    "clients": "Klijenti"
+  },
+  "header": {
+    "cta": "ZATRAŽITE PONUDU",
+    "menu": "Izbornik",
+    "language": "Jezik"
+  },
+  "hero": {
+    "imageAlt": "Industrijski pogon za pranje rublja",
+    "taglineMain": "Sezona je stresna.",
+    "taglineSub": "Ovu brigu prepustite nama.",
+    "h1": "Industrijsko pranje rublja",
+    "lead": "Specijalizirani za apartmane i vile na Poljičkoj rivijeri — uz pouzdanu obradu i za hotele, restorane i druge ugostiteljske objekte.",
+    "priorityLabel": "PRIORITET",
+    "priorityValue": "Apartmani & vile",
+    "radiusLabel": "RADIJUS DOSTAVE",
+    "radiusValue": "15 km",
+    "turnaroundLabel": "ROK OBRADE",
+    "turnaroundValue": "24 h",
+    "experienceLabel": "ISKUSTVO",
+    "experienceValue": "12 godina"
+  },
+  "services": {
+    "heading": "Tijek obrade",
+    "annotation": "PROCES / OD PRIJAMA DO ISPORUKE",
+    "specTitle": "SPECIFIKACIJE",
+    "serviceTypeLabel": "Vrsta usluge",
+    "descriptionLabel": "Opis",
+    "steps": [
+      {
+        "title": "Prijem i razdvajanje",
+        "description": "Tekstil se zaprima i razdvaja prema vrsti materijala, stupnju zagađenosti i zahtjevima obrade.",
+        "serviceTitle": "Pranje rublja",
+        "serviceDescription": "Profesionalno pranje posteljine, ručnika i ostalog tekstila za vaše smještajne jedinice."
+      },
+      {
+        "title": "Obrada industrijskog razmjera",
+        "description": "Visokokapacitetni sustavi pranja s kontrolom temperature i kemijskih sredstava prema specifikaciji.",
+        "serviceTitle": "Kemijsko čišćenje",
+        "serviceDescription": "Specijalizirano kemijsko čišćenje za zavjese, tepihe i osjetljive tkanine."
+      },
+      {
+        "title": "Kontrola i provjera kvalitete",
+        "description": "Postupci kontrole kvalitete koji osiguravaju usklađenost s higijenskim i estetskim standardima.",
+        "serviceTitle": "Poslovno pranje",
+        "serviceDescription": "Redovito pranje i održavanje tekstila za ugostiteljske objekte i hotele."
+      },
+      {
+        "title": "Pakiranje i otprema",
+        "description": "Obrađen tekstil slaže se u kolica i priprema za isporuku prema rasporedu dostave.",
+        "serviceTitle": "Dostava",
+        "serviceDescription": "Pravovremena dostava obrađenog tekstila izravno na adresu vašeg objekta."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Cjenik usluga",
+    "annotation": "STRUKTURA CIJENA / JEDINICE I SPECIFIKACIJE",
+    "itemHeader": "STAVKA",
+    "unitHeader": "JEDINICA",
+    "priceHeader": "CIJENA",
+    "footerNote": "* SVE CIJENE UKLJUČUJU PDV / PRIMJENJUJU SE UVJETI MINIMALNE NARUDŽBE",
+    "categories": [
+      {
+        "id": "apartmani",
+        "name": "Apartmani",
+        "items": [
+          { "name": "Komplet posteljine", "description": "Pranje i peglanje", "price": "15,00 €", "unit": "po kompletu" },
+          { "name": "Ručnici", "description": "Pranje i sušenje", "price": "2,50 €", "unit": "po komadu" },
+          { "name": "Zavjese", "description": "Kemijsko čišćenje", "price": "8,00 €", "unit": "po m²" },
+          { "name": "Deke i popluni", "description": "Dubinsko pranje", "price": "12,00 €", "unit": "po komadu" },
+          { "name": "Jastučnice", "description": "Pranje i peglanje", "price": "1,50 €", "unit": "po komadu" },
+          { "name": "Prekrivači za krevet", "description": "Pranje i sušenje", "price": "10,00 €", "unit": "po komadu" },
+          { "name": "Nadmadraci", "description": "Dubinsko čišćenje", "price": "20,00 €", "unit": "po komadu" },
+          { "name": "Kuhinjske krpe", "description": "Pranje i sušenje", "price": "1,00 €", "unit": "po komadu" }
+        ]
+      },
+      {
+        "id": "poslovni",
+        "name": "Poslovni prostori",
+        "items": [
+          { "name": "Stolnjaci", "description": "Pranje i peglanje", "price": "5,00 €", "unit": "po komadu" },
+          { "name": "Radna odjeća", "description": "Pranje i peglanje", "price": "4,00 €", "unit": "po komadu" },
+          { "name": "Mjesečni paket", "description": "Za restorane", "price": "250,00 €", "unit": "mjesečno" },
+          { "name": "Kuhinjske krpe", "description": "Pranje i sušenje", "price": "1,20 €", "unit": "po komadu" },
+          { "name": "Salvete", "description": "Pranje i peglanje", "price": "0,80 €", "unit": "po komadu" },
+          { "name": "Uniforme", "description": "Pranje i peglanje", "price": "6,00 €", "unit": "po komadu" },
+          { "name": "Zavjese za poslovne prostore", "description": "Kemijsko čišćenje", "price": "10,00 €", "unit": "po m²" }
+        ]
+      },
+      {
+        "id": "posebno",
+        "name": "Posebne usluge",
+        "items": [
+          { "name": "Tepisi", "description": "Dubinsko čišćenje", "price": "10,00 €", "unit": "po m²" },
+          { "name": "Hitna usluga", "description": "Dostava isti dan", "price": "+50%", "unit": "na osnovnu cijenu" },
+          { "name": "Dostava", "description": "U krugu od 15km", "price": "5,00 €", "unit": "po dostavi" },
+          { "name": "Uklanjanje mrlja", "description": "Specijalni tretman", "price": "3,00 €", "unit": "po mrlji" },
+          { "name": "Preuzimanje", "description": "U krugu od 15km", "price": "5,00 €", "unit": "po preuzimanju" },
+          { "name": "Pakiranje", "description": "Posebno pakiranje", "price": "2,00 €", "unit": "po paketu" },
+          { "name": "Godišnja pretplata", "description": "Za redovite klijente", "price": "-15%", "unit": "na sve usluge" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "heading": "Dokazana pouzdanost",
+    "annotation": "POKAZATELJI POSLOVANJA / GODINE U INDUSTRIJI",
+    "imageAlt": "Kontrolni sustav pogona",
+    "paragraph": "Više od desetljeća obrađujemo tekstil za hotele, apartmane i ugostiteljske objekte uz dosljedne standarde kvalitete i rokove na koje se možete osloniti.",
+    "stats": [
+      { "value": "500+", "label": "zadovoljnih klijenata" },
+      { "value": "12", "label": "godina iskustva" },
+      { "value": "100%", "label": "zadovoljstvo" },
+      { "value": "24/7", "label": "podrška" }
+    ]
+  },
+  "caseStudies": {
+    "heading": "Provjereni rezultati",
+    "annotation": "STUDIJE SLUČAJA / ILUSTRATIVNI PRIKAZ",
+    "items": [
+      {
+        "number": "01",
+        "category": "APARTMANI I VILE, 40 JEDINICA",
+        "stat": "0",
+        "statLabel": "propuštenih primopredaja u 12 mjeseci",
+        "title": "Sezonska skalabilnost za iznajmljivače",
+        "description": "Kapacitet obrade prilagođen je vršnoj turističkoj sezoni bez potrebe da vlasnik angažira dodatno osoblje za pranje između gostiju."
+      },
+      {
+        "number": "02",
+        "category": "VILA S BAZENOM, PRIVATNI IZNAJMLJIVAČ",
+        "stat": "<6h",
+        "statLabel": "okret posteljine između dolazaka",
+        "title": "Brzi okret za check-in/check-out istog dana",
+        "description": "Dogovoreni prioritetni termini omogućuju da posteljina i ručnici budu spremni i prije dolaska sljedećih gostiju."
+      },
+      {
+        "number": "03",
+        "category": "HOTEL, 80 SOBA",
+        "stat": "-18%",
+        "statLabel": "trošak rublja godišnje",
+        "title": "Konsolidacija opskrbe posteljinom",
+        "description": "Prelaskom s tri dobavljača na jedan ugovorni odnos hotel je smanjio troškove i ujednačio kvalitetu posteljine u svim sobama."
+      }
+    ]
+  },
+  "clientLogos": {
+    "annotation": "POVJERENJE APARTMANA, VILA I UGOSTITELJSKIH OBJEKATA"
+  },
+  "location": {
+    "heading": "Lokacija i pristup",
+    "annotation": "LOKACIJA POGONA / RADNO VRIJEME",
+    "statusNote": "STATUS PREMA RADNOM VREMENU POGONA",
+    "addressTitle": "ADRESA POGONA",
+    "copyAddress": "Kopiraj adresu",
+    "addressCopied": "Adresa kopirana",
+    "directionsLabel": "Upute za dolazak",
+    "hoursLabel": "Radno vrijeme",
+    "contactTitle": "KONTAKT",
+    "phoneLabel": "Telefon",
+    "emailLabel": "Email",
+    "dayMonFri": "PON-PET",
+    "daySat": "SUB",
+    "daySun": "NED",
+    "closed": "ZATVORENO",
+    "mapNote": "PRIBLIŽNO PODRUČJE DOSTAVE — POLJICA I OMIŠKA RIVIJERA (OD ŽRNOVNICE DO OMIŠA)"
+  },
+  "faq": {
+    "heading": "Česta pitanja",
+    "annotation": "ODGOVORI / USLUGE, DOSTAVA I PODRUČJE RADA",
+    "footerNote": "NEMATE ODGOVOR NA SVOJE PITANJE? KONTAKTIRAJTE NAS — ODJELJAK /12/",
+    "items": [
+      {
+        "question": "Gdje se nalazi vaša praonica rublja?",
+        "answer": "Naš industrijski pogon nalazi se na adresi Trg poljičkih knezova 1, 21252 Tugare, u srcu Poljica iznad Omiša. Smješteni smo na svega nekoliko minuta vožnje od Omiša i Dugog Rata te dvadesetak minuta od Splita, pa pokrivamo cijelu Poljičku rivijeru i okolicu."
+      },
+      {
+        "question": "Pokrivate li dostavu i preuzimanje rublja u Omišu, Splitu i okolici?",
+        "answer": "Da. Besplatno preuzimamo i dostavljamo rublje u krugu od 15 km od pogona u Tugarama, što uključuje Omiš, Dugi Rat, Staniće, Mimice, Krilo Jesenice, Podstranu te prigradska naselja Splita. Za udaljenije lokacije na Makarskoj rivijeri i u Splitu dogovaramo dostavu prema rasporedu."
+      },
+      {
+        "question": "Perete li posteljinu i ručnike za apartmane i kuće za odmor?",
+        "answer": "Apartmani i vile naš su prioritet. Specijalizirani smo za pranje, sušenje i peglanje kompleta posteljine, plahti, jastučnica i ručnika za iznajmljivače na Poljičkoj rivijeri. U sezoni nudimo brzu izmjenu turnusa s rokom obrade od 24 sata kako bi vaše smještajne jedinice uvijek bile spremne za nove goste."
+      },
+      {
+        "question": "Koliko brzo mogu dobiti oprano rublje natrag?",
+        "answer": "Standardni rok obrade je 24 sata. Za hitne situacije nudimo uslugu dostave isti dan, idealnu kad u apartmanu ili vili dolazi nenajavljena izmjena gostiju. Hitna usluga obračunava se uz doplatu na osnovnu cijenu."
+      },
+      {
+        "question": "Surađujete li s hotelima, restoranima i drugim ugostiteljskim objektima?",
+        "answer": "Da. Uz apartmane redovito održavamo tekstil za hotele, restorane, konobe i kafiće u okolici Omiša i Splita — stolnjake, salvete, radnu odjeću, uniforme i kuhinjske krpe. Za ugostiteljske objekte nudimo mjesečne pakete s fiksnom cijenom i redovitim rasporedom preuzimanja."
+      },
+      {
+        "question": "Nudite li kemijsko čišćenje osjetljivih materijala?",
+        "answer": "Nudimo. Osim industrijskog pranja rublja radimo i kemijsko čišćenje zavjesa, tepiha, deka, popluna i osjetljivih tkanina koje se ne smiju prati klasično. Tepise i zavjese možemo preuzeti i vratiti zajedno s redovnom dostavom rublja."
+      },
+      {
+        "question": "Koristite li ekološki prihvatljiva sredstva za pranje?",
+        "answer": "Da. Na zahtjev peremo ekološki prihvatljivim sredstvima koja su sigurna za djecu, alergičare i osjetljivu kožu, a istovremeno štede vodu i energiju. Ovo posebno cijene obitelji s djecom i iznajmljivači koji gostima žele ponuditi higijenski besprijekoran, a nježan tekstil."
+      },
+      {
+        "question": "Kako se formira cijena i postoje li popusti za redovite klijente?",
+        "answer": "Cijene su transparentne i navedene po stavci u našem cjeniku, a sve uključuju PDV. Redoviti klijenti — apartmani, vile i ugostiteljski objekti — ostvaruju do 15 % popusta kroz godišnju pretplatu te fiksne mjesečne pakete. Za veće količine i sezonsku suradnju izrađujemo ponudu po mjeri."
+      },
+      {
+        "question": "Koje je vaše radno vrijeme?",
+        "answer": "Pogon u Tugarama radi ponedjeljkom do petka od 08:00 do 18:00 i subotom od 08:00 do 14:00, dok je nedjeljom zatvoreno. Trenutačni status pogona prema radnom vremenu možete vidjeti uživo na stranici, u odjeljku Lokacija."
+      },
+      {
+        "question": "Kako mogu zatražiti ponudu ili dogovoriti suradnju?",
+        "answer": "Ispunite upitni obrazac u odjeljku Kontakt ili nas nazovite na +385 21 123 456, odnosno pišite na info@lessive-tugare.hr. Javit ćemo vam se s ponudom prilagođenom vrsti tekstila, količinama i rokovima, bilo da vodite jedan apartman ili cijeli portfelj smještajnih jedinica."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Zatražite ponudu",
+    "annotation": "UPITNI OBRAZAC / ZAHTJEV ZA PONUDU",
+    "directLabel": "ILI NAS KONTAKTIRAJTE DIREKTNO",
+    "nameLabel": "Ime i prezime",
+    "required": "Obavezno",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "optional": "Neobavezno",
+    "messageLabel": "Opis potreba",
+    "messagePlaceholder": "Opišite opseg posla, vrstu tekstila, količine i rokove",
+    "submit": "POŠALJI UPIT"
+  },
+  "quickContacts": {
+    "call": "POZOVITE",
+    "sms": "SMS",
+    "whatsapp": "WHATSAPP",
+    "viber": "VIBER",
+    "instagram": "INSTAGRAM"
+  },
+  "mobileCallBar": {
+    "call": "POZOVITE",
+    "whatsapp": "WHATSAPP"
+  },
+  "facilityStatus": {
+    "checking": "PROVJERA STATUSA",
+    "open": "OTVORENO",
+    "closed": "ZATVORENO"
+  },
+  "referenceNumber": {
+    "label": "REFERENTNI BROJ UPITA"
+  },
+  "reviews": {
+    "heading": "Što kažu naši klijenti",
+    "annotation": "OCJENE I PREPORUKE KLIJENATA",
+    "ratingLabel": "PROSJEČNA OCJENA",
+    "outOf": "od 5",
+    "basedOn": "na temelju {count} recenzija",
+    "items": [
+      {
+        "author": "Ana Kovačević",
+        "location": "Apartmani, Omiš",
+        "rating": 5,
+        "quote": "U punoj sezoni posteljina i ručnici vraćaju se na vrijeme, svaki put. Mogu primiti goste bez brige oko pranja između turnusa."
+      },
+      {
+        "author": "Marko Babić",
+        "location": "Vila s bazenom, Stanići",
+        "rating": 5,
+        "quote": "Hitna izmjena istog dana spasila mi je rezervaciju. Posteljina je bila spremna prije nego što su gosti stigli."
+      },
+      {
+        "author": "Ivana Perić",
+        "location": "Iznajmljivačica, Dugi Rat",
+        "rating": 5,
+        "quote": "Koriste ekološka sredstva na zahtjev — gosti redovito komentiraju kako tekstil miriše svježe i ugodno, bez agresivnih mirisa."
+      },
+      {
+        "author": "Konoba Lavanda",
+        "location": "Restoran, Omiš",
+        "rating": 4,
+        "quote": "Stolnjaci i salvete uvijek su besprijekorni, a mjesečni paket s fiksnom cijenom uvelike nam olakšava planiranje troškova."
+      },
+      {
+        "author": "Hotel Nautica",
+        "location": "Hotel, Split",
+        "rating": 5,
+        "quote": "Prelaskom na jednog dobavljača ujednačili smo kvalitetu posteljine u svim sobama i smanjili troškove. Pouzdani su i dosljedni."
+      },
+      {
+        "author": "Petra Marić",
+        "location": "Apartmani, Podstrana",
+        "rating": 5,
+        "quote": "Preuzimanje i dostava štede mi sate svaki tjedan. Profesionalni su, točni i uvijek dostupni za dogovor."
+      }
+    ]
+  }
+}

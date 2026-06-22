@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "Wäscherei Omiš & Tugare | Lessive Studio — Apartments, Hotels, Lieferung",
+    "ogTitle": "Wäscherei Omiš & Tugare | Lessive Studio",
+    "description": "Industriewäscherei in Tugare bei Omiš. Waschen von Bettwäsche und Handtüchern für Apartments und Villen an der Poljica-Riviera, chemische Reinigung und gewerbliche Wäsche für Hotels und Restaurants, mit Lieferung in Omiš, Dugi Rat und Split.",
+    "ogImageAlt": "Industriewäscherei — Lessive Studio Tugare",
+    "keywords": [
+      "Wäscherei Omiš",
+      "Wäscherei Tugare",
+      "Industriewäscherei Kroatien",
+      "Bettwäsche waschen für Apartments",
+      "Handtücher waschen Apartments",
+      "Wäscherei Split",
+      "chemische Reinigung Omiš",
+      "Wäscherei für Hotels",
+      "Wäscherei für Restaurants",
+      "Wäscherei Poljica",
+      "Wäscherei Poljica-Riviera",
+      "Wäscheabholung Omiš Split",
+      "umweltfreundliche Wäscherei",
+      "Wäscherei für Ferienvermieter"
+    ]
+  },
+  "nav": {
+    "hero": "Start",
+    "services": "Leistungen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "results": "Ergebnisse",
+    "location": "Standort",
+    "faq": "FAQ",
+    "reviews": "Bewertungen",
+    "contact": "Kontakt",
+    "clients": "Kunden"
+  },
+  "header": {
+    "cta": "ANGEBOT ANFORDERN",
+    "menu": "Menü",
+    "language": "Sprache"
+  },
+  "hero": {
+    "imageAlt": "Industriewäscherei",
+    "taglineMain": "Die Saison ist stressig.",
+    "taglineSub": "Überlassen Sie diese Sorge uns.",
+    "h1": "Industrielle Wäscherei",
+    "lead": "Spezialisiert auf Apartments und Villen an der Poljica-Riviera — mit zuverlässiger Bearbeitung auch für Hotels, Restaurants und weitere Gastgewerbebetriebe.",
+    "priorityLabel": "PRIORITÄT",
+    "priorityValue": "Apartments & Villen",
+    "radiusLabel": "LIEFERRADIUS",
+    "radiusValue": "15 km",
+    "turnaroundLabel": "BEARBEITUNGSZEIT",
+    "turnaroundValue": "24 Std.",
+    "experienceLabel": "ERFAHRUNG",
+    "experienceValue": "12 Jahre"
+  },
+  "services": {
+    "heading": "Bearbeitungsablauf",
+    "annotation": "PROZESS / VON DER ANNAHME BIS ZUR LIEFERUNG",
+    "specTitle": "SPEZIFIKATIONEN",
+    "serviceTypeLabel": "Art der Leistung",
+    "descriptionLabel": "Beschreibung",
+    "steps": [
+      {
+        "title": "Annahme und Sortierung",
+        "description": "Textilien werden angenommen und nach Materialart, Verschmutzungsgrad und Bearbeitungsanforderungen sortiert.",
+        "serviceTitle": "Wäsche waschen",
+        "serviceDescription": "Professionelles Waschen von Bettwäsche, Handtüchern und sonstigen Textilien für Ihre Unterkünfte."
+      },
+      {
+        "title": "Bearbeitung im Industriemaßstab",
+        "description": "Hochleistungs-Waschsysteme mit Temperatur- und Waschmittelkontrolle nach Spezifikation.",
+        "serviceTitle": "Chemische Reinigung",
+        "serviceDescription": "Spezialisierte chemische Reinigung für Vorhänge, Teppiche und empfindliche Stoffe."
+      },
+      {
+        "title": "Qualitätskontrolle und Prüfung",
+        "description": "Qualitätskontrollverfahren zur Sicherstellung der Einhaltung von Hygiene- und Ästhetikstandards.",
+        "serviceTitle": "Gewerbliche Wäsche",
+        "serviceDescription": "Regelmäßiges Waschen und Pflege von Textilien für Gastgewerbebetriebe und Hotels."
+      },
+      {
+        "title": "Verpackung und Versand",
+        "description": "Fertige Textilien werden in Wagen gestapelt und gemäß dem geplanten Lieferweg für die Auslieferung vorbereitet.",
+        "serviceTitle": "Lieferung",
+        "serviceDescription": "Pünktliche Lieferung der fertigen Textilien direkt zu Ihrer Unterkunft."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Preisliste der Leistungen",
+    "annotation": "PREISSTRUKTUR / EINHEITEN UND SPEZIFIKATIONEN",
+    "itemHeader": "POSITION",
+    "unitHeader": "EINHEIT",
+    "priceHeader": "PREIS",
+    "footerNote": "* ALLE PREISE INKL. MWST. / ES GELTEN MINDESTBESTELLBEDINGUNGEN",
+    "categories": [
+      {
+        "id": "apartmani",
+        "name": "Apartments",
+        "items": [
+          { "name": "Bettwäsche-Set", "description": "Waschen und Bügeln", "price": "15,00 €", "unit": "pro Set" },
+          { "name": "Handtücher", "description": "Waschen und Trocknen", "price": "2,50 €", "unit": "pro Stück" },
+          { "name": "Vorhänge", "description": "Chemische Reinigung", "price": "8,00 €", "unit": "pro m²" },
+          { "name": "Decken und Bettdecken", "description": "Tiefenwäsche", "price": "12,00 €", "unit": "pro Stück" },
+          { "name": "Kissenbezüge", "description": "Waschen und Bügeln", "price": "1,50 €", "unit": "pro Stück" },
+          { "name": "Tagesdecken", "description": "Waschen und Trocknen", "price": "10,00 €", "unit": "pro Stück" },
+          { "name": "Matratzenauflagen", "description": "Tiefenreinigung", "price": "20,00 €", "unit": "pro Stück" },
+          { "name": "Küchentücher", "description": "Waschen und Trocknen", "price": "1,00 €", "unit": "pro Stück" }
+        ]
+      },
+      {
+        "id": "poslovni",
+        "name": "Geschäftsräume",
+        "items": [
+          { "name": "Tischdecken", "description": "Waschen und Bügeln", "price": "5,00 €", "unit": "pro Stück" },
+          { "name": "Arbeitskleidung", "description": "Waschen und Bügeln", "price": "4,00 €", "unit": "pro Stück" },
+          { "name": "Monatspaket", "description": "Für Restaurants", "price": "250,00 €", "unit": "pro Monat" },
+          { "name": "Küchentücher", "description": "Waschen und Trocknen", "price": "1,20 €", "unit": "pro Stück" },
+          { "name": "Servietten", "description": "Waschen und Bügeln", "price": "0,80 €", "unit": "pro Stück" },
+          { "name": "Uniformen", "description": "Waschen und Bügeln", "price": "6,00 €", "unit": "pro Stück" },
+          { "name": "Vorhänge für Geschäftsräume", "description": "Chemische Reinigung", "price": "10,00 €", "unit": "pro m²" }
+        ]
+      },
+      {
+        "id": "posebno",
+        "name": "Sonderleistungen",
+        "items": [
+          { "name": "Teppiche", "description": "Tiefenreinigung", "price": "10,00 €", "unit": "pro m²" },
+          { "name": "Express-Service", "description": "Lieferung am selben Tag", "price": "+50%", "unit": "auf den Grundpreis" },
+          { "name": "Lieferung", "description": "Im Umkreis von 15 km", "price": "5,00 €", "unit": "pro Lieferung" },
+          { "name": "Fleckentfernung", "description": "Spezialbehandlung", "price": "3,00 €", "unit": "pro Fleck" },
+          { "name": "Abholung", "description": "Im Umkreis von 15 km", "price": "5,00 €", "unit": "pro Abholung" },
+          { "name": "Verpackung", "description": "Spezialverpackung", "price": "2,00 €", "unit": "pro Paket" },
+          { "name": "Jahresabonnement", "description": "Für Stammkunden", "price": "-15%", "unit": "auf alle Leistungen" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "heading": "Bewährte Zuverlässigkeit",
+    "annotation": "GESCHÄFTSKENNZAHLEN / JAHRE IN DER BRANCHE",
+    "imageAlt": "Steuerungssystem der Anlage",
+    "paragraph": "Seit über einem Jahrzehnt bearbeiten wir Textilien für Hotels, Apartments und Gastgewerbebetriebe mit gleichbleibenden Qualitätsstandards und Terminen, auf die Sie sich verlassen können.",
+    "stats": [
+      { "value": "500+", "label": "zufriedene Kunden" },
+      { "value": "12", "label": "Jahre Erfahrung" },
+      { "value": "100%", "label": "Zufriedenheit" },
+      { "value": "24/7", "label": "Unterstützung" }
+    ]
+  },
+  "caseStudies": {
+    "heading": "Nachgewiesene Ergebnisse",
+    "annotation": "FALLSTUDIEN / ILLUSTRATIVE DARSTELLUNG",
+    "items": [
+      {
+        "number": "01",
+        "category": "APARTMENTS UND VILLEN, 40 EINHEITEN",
+        "stat": "0",
+        "statLabel": "verpasste Übergaben in 12 Monaten",
+        "title": "Saisonale Skalierbarkeit für Vermieter",
+        "description": "Die Bearbeitungskapazität ist an die touristische Hochsaison angepasst, ohne dass der Eigentümer zusätzliches Personal zum Waschen zwischen den Gästen einstellen muss."
+      },
+      {
+        "number": "02",
+        "category": "VILLA MIT POOL, PRIVATER VERMIETER",
+        "stat": "<6h",
+        "statLabel": "Wäschewechsel zwischen Anreisen",
+        "title": "Schneller Wechsel für Check-in/Check-out am selben Tag",
+        "description": "Vereinbarte Prioritätstermine sorgen dafür, dass Bettwäsche und Handtücher schon vor der Ankunft der nächsten Gäste bereit sind."
+      },
+      {
+        "number": "03",
+        "category": "HOTEL, 80 ZIMMER",
+        "stat": "-18%",
+        "statLabel": "Wäschekosten pro Jahr",
+        "title": "Konsolidierung der Wäscheversorgung",
+        "description": "Durch den Wechsel von drei Lieferanten zu einem einzigen Vertragspartner senkte das Hotel die Kosten und vereinheitlichte die Wäschequalität in allen Zimmern."
+      }
+    ]
+  },
+  "clientLogos": {
+    "annotation": "VERTRAUEN VON APARTMENTS, VILLEN UND GASTGEWERBEBETRIEBEN"
+  },
+  "location": {
+    "heading": "Standort und Anfahrt",
+    "annotation": "STANDORT DER ANLAGE / ÖFFNUNGSZEITEN",
+    "statusNote": "STATUS GEMÄSS DEN ÖFFNUNGSZEITEN DER ANLAGE",
+    "addressTitle": "ADRESSE DER ANLAGE",
+    "copyAddress": "Adresse kopieren",
+    "addressCopied": "Adresse kopiert",
+    "directionsLabel": "Route anzeigen",
+    "hoursLabel": "Öffnungszeiten",
+    "contactTitle": "KONTAKT",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "dayMonFri": "MO-FR",
+    "daySat": "SA",
+    "daySun": "SO",
+    "closed": "GESCHLOSSEN",
+    "mapNote": "UNGEFÄHRES LIEFERGEBIET — POLJICA UND DIE RIVIERA VON OMIŠ (VON ŽRNOVNICA BIS OMIŠ)"
+  },
+  "faq": {
+    "heading": "Häufig gestellte Fragen",
+    "annotation": "ANTWORTEN / LEISTUNGEN, LIEFERUNG UND LIEFERGEBIET",
+    "footerNote": "KEINE ANTWORT AUF IHRE FRAGE? KONTAKTIEREN SIE UNS — ABSCHNITT /12/",
+    "items": [
+      {
+        "question": "Wo befindet sich Ihre Wäscherei?",
+        "answer": "Unsere Industrieanlage befindet sich in der Trg poljičkih knezova 1, 21252 Tugare, im Herzen von Poljica oberhalb von Omiš. Wir sind nur wenige Fahrminuten von Omiš und Dugi Rat und etwa zwanzig Minuten von Split entfernt und decken somit die gesamte Poljica-Riviera und die Umgebung ab."
+      },
+      {
+        "question": "Bieten Sie Lieferung und Abholung der Wäsche in Omiš, Split und Umgebung an?",
+        "answer": "Ja. Wir holen die Wäsche kostenlos im Umkreis von 15 km um unsere Anlage in Tugare ab und liefern sie zurück, einschließlich Omiš, Dugi Rat, Stanići, Mimice, Krilo Jesenice, Podstrana und der Vororte von Split. Für weiter entfernte Orte an der Makarska-Riviera und in Split vereinbaren wir die Lieferung nach Zeitplan."
+      },
+      {
+        "question": "Waschen Sie Bettwäsche und Handtücher für Apartments und Ferienhäuser?",
+        "answer": "Apartments und Villen haben bei uns Priorität. Wir sind auf das Waschen, Trocknen und Bügeln von Bettwäsche-Sets, Laken, Kissenbezügen und Handtüchern für Vermieter an der Poljica-Riviera spezialisiert. In der Saison bieten wir einen schnellen Wechsel zwischen Buchungen mit einer Bearbeitungszeit von 24 Stunden, damit Ihre Unterkünfte stets für neue Gäste bereit sind."
+      },
+      {
+        "question": "Wie schnell bekomme ich meine Wäsche zurück?",
+        "answer": "Die Standardbearbeitungszeit beträgt 24 Stunden. Für dringende Fälle bieten wir eine Lieferung am selben Tag an — ideal, wenn in einem Apartment oder einer Villa ein unangekündigter Gästewechsel ansteht. Der Express-Service wird mit einem Aufschlag auf den Grundpreis berechnet."
+      },
+      {
+        "question": "Arbeiten Sie mit Hotels, Restaurants und anderen Gastgewerbebetrieben zusammen?",
+        "answer": "Ja. Neben Apartments pflegen wir regelmäßig Textilien für Hotels, Restaurants, Tavernen und Cafés rund um Omiš und Split — Tischdecken, Servietten, Arbeitskleidung, Uniformen und Küchentücher. Für Gastgewerbebetriebe bieten wir Monatspakete mit Festpreis und regelmäßigem Abholplan an."
+      },
+      {
+        "question": "Bieten Sie chemische Reinigung empfindlicher Materialien an?",
+        "answer": "Ja. Neben der Industriewäsche reinigen wir auch Vorhänge, Teppiche, Decken, Bettdecken und empfindliche Stoffe chemisch, die nicht herkömmlich gewaschen werden dürfen. Teppiche und Vorhänge können wir zusammen mit Ihrer regulären Wäschelieferung abholen und zurückbringen."
+      },
+      {
+        "question": "Verwenden Sie umweltfreundliche Waschmittel?",
+        "answer": "Ja. Auf Wunsch waschen wir mit umweltfreundlichen Mitteln, die für Kinder, Allergiker und empfindliche Haut sicher sind und gleichzeitig Wasser und Energie sparen. Das schätzen besonders Familien mit Kindern und Vermieter, die ihren Gästen hygienisch einwandfreie und zugleich schonend behandelte Textilien bieten möchten."
+      },
+      {
+        "question": "Wie wird der Preis bestimmt und gibt es Rabatte für Stammkunden?",
+        "answer": "Die Preise sind transparent und in unserer Preisliste pro Position aufgeführt, und alle enthalten die Mehrwertsteuer. Stammkunden — Apartments, Villen und Gastgewerbebetriebe — erhalten über ein Jahresabonnement und feste Monatspakete bis zu 15% Rabatt. Für größere Mengen und saisonale Zusammenarbeit erstellen wir ein maßgeschneidertes Angebot."
+      },
+      {
+        "question": "Wie sind Ihre Öffnungszeiten?",
+        "answer": "Die Anlage in Tugare ist von Montag bis Freitag von 08:00 bis 18:00 Uhr und samstags von 08:00 bis 14:00 Uhr geöffnet, sonntags ist geschlossen. Den aktuellen Status der Anlage gemäß den Öffnungszeiten sehen Sie live auf der Website im Abschnitt Standort."
+      },
+      {
+        "question": "Wie kann ich ein Angebot anfordern oder eine Zusammenarbeit vereinbaren?",
+        "answer": "Füllen Sie das Anfrageformular im Abschnitt Kontakt aus oder rufen Sie uns unter +385 21 123 456 an bzw. schreiben Sie an info@lessive-tugare.hr. Wir melden uns mit einem Angebot, das auf Textilart, Mengen und Termine zugeschnitten ist — egal, ob Sie ein einzelnes Apartment oder ein ganzes Portfolio an Unterkünften betreiben."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Angebot anfordern",
+    "annotation": "ANFRAGEFORMULAR / ANGEBOTSANFRAGE",
+    "directLabel": "ODER KONTAKTIEREN SIE UNS DIREKT",
+    "nameLabel": "Vor- und Nachname",
+    "required": "Erforderlich",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "optional": "Optional",
+    "messageLabel": "Beschreibung des Bedarfs",
+    "messagePlaceholder": "Beschreiben Sie Umfang, Textilart, Mengen und Termine",
+    "submit": "ANFRAGE SENDEN"
+  },
+  "quickContacts": {
+    "call": "ANRUFEN",
+    "sms": "SMS",
+    "whatsapp": "WHATSAPP",
+    "viber": "VIBER",
+    "instagram": "INSTAGRAM"
+  },
+  "mobileCallBar": {
+    "call": "ANRUFEN",
+    "whatsapp": "WHATSAPP"
+  },
+  "facilityStatus": {
+    "checking": "STATUS WIRD GEPRÜFT",
+    "open": "GEÖFFNET",
+    "closed": "GESCHLOSSEN"
+  },
+  "referenceNumber": {
+    "label": "REFERENZNUMMER DER ANFRAGE"
+  },
+  "reviews": {
+    "heading": "Was unsere Kunden sagen",
+    "annotation": "KUNDENBEWERTUNGEN UND EMPFEHLUNGEN",
+    "ratingLabel": "DURCHSCHNITTSBEWERTUNG",
+    "outOf": "von 5",
+    "basedOn": "basierend auf {count} Bewertungen",
+    "items": [
+      {
+        "author": "Ana Kovačević",
+        "location": "Apartments, Omiš",
+        "rating": 5,
+        "quote": "In der Hochsaison kommen Bettwäsche und Handtücher pünktlich zurück, jedes Mal. Ich kann Gäste empfangen, ohne mir Gedanken über die Wäsche zwischen den Buchungen zu machen."
+      },
+      {
+        "author": "Marko Babić",
+        "location": "Villa mit Pool, Stanići",
+        "rating": 5,
+        "quote": "Der Express-Wechsel am selben Tag hat mir eine Buchung gerettet. Die Wäsche war fertig, bevor die Gäste überhaupt ankamen."
+      },
+      {
+        "author": "Ivana Perić",
+        "location": "Vermieterin, Dugi Rat",
+        "rating": 5,
+        "quote": "Auf Wunsch verwenden sie umweltfreundliche Mittel — Gäste loben regelmäßig, wie frisch und angenehm die Textilien riechen, ganz ohne aufdringliche Düfte."
+      },
+      {
+        "author": "Konoba Lavanda",
+        "location": "Restaurant, Omiš",
+        "rating": 4,
+        "quote": "Tischdecken und Servietten sind stets makellos, und das Monatspaket zum Festpreis erleichtert uns die Kostenplanung erheblich."
+      },
+      {
+        "author": "Hotel Nautica",
+        "location": "Hotel, Split",
+        "rating": 5,
+        "quote": "Der Wechsel zu einem einzigen Lieferanten hat die Wäschequalität in allen Zimmern vereinheitlicht und Kosten gesenkt. Sie sind zuverlässig und konsequent."
+      },
+      {
+        "author": "Petra Marić",
+        "location": "Apartments, Podstrana",
+        "rating": 5,
+        "quote": "Abholung und Lieferung sparen mir jede Woche Stunden. Sie sind professionell, pünktlich und immer für Absprachen erreichbar."
+      }
+    ]
+  }
+}

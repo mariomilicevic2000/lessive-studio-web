@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "title": "Lavanderia Omiš & Tugare | Lessive Studio — appartamenti, hotel, consegna",
+    "ogTitle": "Lavanderia Omiš & Tugare | Lessive Studio",
+    "description": "Lavanderia industriale a Tugare vicino a Omiš. Lavaggio di biancheria da letto e asciugamani per appartamenti e ville sulla Riviera di Poljica, lavaggio a secco e lavanderia commerciale per hotel e ristoranti, con consegna a Omiš, Dugi Rat e Spalato.",
+    "ogImageAlt": "Lavanderia industriale — Lessive Studio Tugare",
+    "keywords": [
+      "lavanderia Omiš",
+      "lavanderia Tugare",
+      "lavanderia industriale Croazia",
+      "lavaggio biancheria per appartamenti",
+      "lavaggio asciugamani appartamenti",
+      "lavanderia Spalato",
+      "lavaggio a secco Omiš",
+      "lavanderia per hotel",
+      "lavanderia per ristoranti",
+      "lavanderia Poljica",
+      "lavanderia Riviera di Poljica",
+      "ritiro biancheria Omiš Spalato",
+      "lavanderia ecologica",
+      "lavanderia per case vacanza"
+    ]
+  },
+  "nav": {
+    "hero": "Home",
+    "services": "Servizi",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "results": "Risultati",
+    "location": "Posizione",
+    "faq": "FAQ",
+    "reviews": "Recensioni",
+    "contact": "Contatto",
+    "clients": "Clienti"
+  },
+  "header": {
+    "cta": "RICHIEDI UN PREVENTIVO",
+    "menu": "Menu",
+    "language": "Lingua"
+  },
+  "hero": {
+    "imageAlt": "Lavanderia industriale",
+    "taglineMain": "La stagione è stressante.",
+    "taglineSub": "Lasciate questa preoccupazione a noi.",
+    "h1": "Lavanderia industriale",
+    "lead": "Specializzati in appartamenti e ville sulla Riviera di Poljica — con una lavorazione affidabile anche per hotel, ristoranti e altre attività ricettive.",
+    "priorityLabel": "PRIORITÀ",
+    "priorityValue": "Appartamenti e ville",
+    "radiusLabel": "RAGGIO DI CONSEGNA",
+    "radiusValue": "15 km",
+    "turnaroundLabel": "TEMPI DI LAVORAZIONE",
+    "turnaroundValue": "24 h",
+    "experienceLabel": "ESPERIENZA",
+    "experienceValue": "12 anni"
+  },
+  "services": {
+    "heading": "Flusso di lavorazione",
+    "annotation": "PROCESSO / DALLA RICEZIONE ALLA CONSEGNA",
+    "specTitle": "SPECIFICHE",
+    "serviceTypeLabel": "Tipo di servizio",
+    "descriptionLabel": "Descrizione",
+    "steps": [
+      {
+        "title": "Ricezione e separazione",
+        "description": "I tessuti vengono ricevuti e separati in base al tipo di materiale, al grado di sporco e ai requisiti di lavorazione.",
+        "serviceTitle": "Lavaggio della biancheria",
+        "serviceDescription": "Lavaggio professionale di biancheria da letto, asciugamani e altri tessuti per le vostre unità ricettive."
+      },
+      {
+        "title": "Lavorazione su scala industriale",
+        "description": "Sistemi di lavaggio ad alta capacità con controllo della temperatura e dei detergenti secondo specifica.",
+        "serviceTitle": "Lavaggio a secco",
+        "serviceDescription": "Lavaggio a secco specializzato per tende, tappeti e tessuti delicati."
+      },
+      {
+        "title": "Controllo e verifica della qualità",
+        "description": "Procedure di controllo qualità che garantiscono la conformità agli standard igienici ed estetici.",
+        "serviceTitle": "Lavanderia commerciale",
+        "serviceDescription": "Lavaggio regolare e manutenzione dei tessuti per attività ricettive e hotel."
+      },
+      {
+        "title": "Imballaggio e spedizione",
+        "description": "I tessuti finiti vengono caricati su carrelli e preparati per la consegna secondo il percorso programmato.",
+        "serviceTitle": "Consegna",
+        "serviceDescription": "Consegna puntuale dei tessuti finiti direttamente presso la vostra struttura."
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Listino servizi",
+    "annotation": "STRUTTURA DEI PREZZI / UNITÀ E SPECIFICHE",
+    "itemHeader": "VOCE",
+    "unitHeader": "UNITÀ",
+    "priceHeader": "PREZZO",
+    "footerNote": "* TUTTI I PREZZI INCLUDONO L'IVA / SI APPLICANO CONDIZIONI DI ORDINE MINIMO",
+    "categories": [
+      {
+        "id": "apartmani",
+        "name": "Appartamenti",
+        "items": [
+          { "name": "Set di biancheria da letto", "description": "Lavaggio e stiratura", "price": "15,00 €", "unit": "per set" },
+          { "name": "Asciugamani", "description": "Lavaggio e asciugatura", "price": "2,50 €", "unit": "al pezzo" },
+          { "name": "Tende", "description": "Lavaggio a secco", "price": "8,00 €", "unit": "al m²" },
+          { "name": "Coperte e piumini", "description": "Lavaggio profondo", "price": "12,00 €", "unit": "al pezzo" },
+          { "name": "Federe", "description": "Lavaggio e stiratura", "price": "1,50 €", "unit": "al pezzo" },
+          { "name": "Copriletti", "description": "Lavaggio e asciugatura", "price": "10,00 €", "unit": "al pezzo" },
+          { "name": "Coprimaterassi", "description": "Pulizia profonda", "price": "20,00 €", "unit": "al pezzo" },
+          { "name": "Strofinacci da cucina", "description": "Lavaggio e asciugatura", "price": "1,00 €", "unit": "al pezzo" }
+        ]
+      },
+      {
+        "id": "poslovni",
+        "name": "Locali commerciali",
+        "items": [
+          { "name": "Tovaglie", "description": "Lavaggio e stiratura", "price": "5,00 €", "unit": "al pezzo" },
+          { "name": "Abbigliamento da lavoro", "description": "Lavaggio e stiratura", "price": "4,00 €", "unit": "al pezzo" },
+          { "name": "Pacchetto mensile", "description": "Per ristoranti", "price": "250,00 €", "unit": "al mese" },
+          { "name": "Strofinacci da cucina", "description": "Lavaggio e asciugatura", "price": "1,20 €", "unit": "al pezzo" },
+          { "name": "Tovaglioli", "description": "Lavaggio e stiratura", "price": "0,80 €", "unit": "al pezzo" },
+          { "name": "Divise", "description": "Lavaggio e stiratura", "price": "6,00 €", "unit": "al pezzo" },
+          { "name": "Tende per locali commerciali", "description": "Lavaggio a secco", "price": "10,00 €", "unit": "al m²" }
+        ]
+      },
+      {
+        "id": "posebno",
+        "name": "Servizi speciali",
+        "items": [
+          { "name": "Tappeti", "description": "Pulizia profonda", "price": "10,00 €", "unit": "al m²" },
+          { "name": "Servizio express", "description": "Consegna in giornata", "price": "+50%", "unit": "sul prezzo base" },
+          { "name": "Consegna", "description": "Nel raggio di 15 km", "price": "5,00 €", "unit": "per consegna" },
+          { "name": "Rimozione macchie", "description": "Trattamento speciale", "price": "3,00 €", "unit": "per macchia" },
+          { "name": "Ritiro", "description": "Nel raggio di 15 km", "price": "5,00 €", "unit": "per ritiro" },
+          { "name": "Confezionamento", "description": "Confezionamento speciale", "price": "2,00 €", "unit": "per confezione" },
+          { "name": "Abbonamento annuale", "description": "Per clienti abituali", "price": "-15%", "unit": "su tutti i servizi" }
+        ]
+      }
+    ]
+  },
+  "about": {
+    "heading": "Affidabilità comprovata",
+    "annotation": "INDICATORI AZIENDALI / ANNI NEL SETTORE",
+    "imageAlt": "Sistema di controllo dello stabilimento",
+    "paragraph": "Da oltre un decennio trattiamo i tessuti per hotel, appartamenti e attività ricettive con standard di qualità costanti e tempi su cui potete contare.",
+    "stats": [
+      { "value": "500+", "label": "clienti soddisfatti" },
+      { "value": "12", "label": "anni di esperienza" },
+      { "value": "100%", "label": "soddisfazione" },
+      { "value": "24/7", "label": "assistenza" }
+    ]
+  },
+  "caseStudies": {
+    "heading": "Risultati comprovati",
+    "annotation": "CASI STUDIO / PANORAMICA ILLUSTRATIVA",
+    "items": [
+      {
+        "number": "01",
+        "category": "APPARTAMENTI E VILLE, 40 UNITÀ",
+        "stat": "0",
+        "statLabel": "consegne mancate in 12 mesi",
+        "title": "Scalabilità stagionale per i gestori",
+        "description": "La capacità di lavorazione è adattata all'alta stagione turistica senza che il proprietario debba assumere personale aggiuntivo per il lavaggio tra un ospite e l'altro."
+      },
+      {
+        "number": "02",
+        "category": "VILLA CON PISCINA, GESTORE PRIVATO",
+        "stat": "<6h",
+        "statLabel": "ricambio biancheria tra gli arrivi",
+        "title": "Ricambio rapido per check-in/check-out in giornata",
+        "description": "Le fasce prioritarie concordate fanno sì che biancheria e asciugamani siano pronti ancor prima dell'arrivo dei prossimi ospiti."
+      },
+      {
+        "number": "03",
+        "category": "HOTEL, 80 CAMERE",
+        "stat": "-18%",
+        "statLabel": "costo della biancheria all'anno",
+        "title": "Consolidamento della fornitura di biancheria",
+        "description": "Passando da tre fornitori a un unico contratto, l'hotel ha ridotto i costi e uniformato la qualità della biancheria in tutte le camere."
+      }
+    ]
+  },
+  "clientLogos": {
+    "annotation": "LA FIDUCIA DI APPARTAMENTI, VILLE E ATTIVITÀ RICETTIVE"
+  },
+  "location": {
+    "heading": "Posizione e accesso",
+    "annotation": "POSIZIONE DELLO STABILIMENTO / ORARIO DI LAVORO",
+    "statusNote": "STATO IN BASE ALL'ORARIO DELLO STABILIMENTO",
+    "addressTitle": "INDIRIZZO DELLO STABILIMENTO",
+    "copyAddress": "Copia indirizzo",
+    "addressCopied": "Indirizzo copiato",
+    "directionsLabel": "Ottieni indicazioni",
+    "hoursLabel": "Orario di lavoro",
+    "contactTitle": "CONTATTO",
+    "phoneLabel": "Telefono",
+    "emailLabel": "Email",
+    "dayMonFri": "LUN-VEN",
+    "daySat": "SAB",
+    "daySun": "DOM",
+    "closed": "CHIUSO",
+    "mapNote": "AREA DI CONSEGNA APPROSSIMATIVA — POLJICA E LA RIVIERA DI OMIŠ (DA ŽRNOVNICA A OMIŠ)"
+  },
+  "faq": {
+    "heading": "Domande frequenti",
+    "annotation": "RISPOSTE / SERVIZI, CONSEGNA E AREA DI SERVIZIO",
+    "footerNote": "NON TROVI LA RISPOSTA? CONTATTACI — SEZIONE /12/",
+    "items": [
+      {
+        "question": "Dove si trova la vostra lavanderia?",
+        "answer": "Il nostro stabilimento industriale si trova in Trg poljičkih knezova 1, 21252 Tugare, nel cuore di Poljica sopra Omiš. Siamo a pochi minuti di auto da Omiš e Dugi Rat e a circa venti minuti da Spalato, quindi copriamo l'intera Riviera di Poljica e i dintorni."
+      },
+      {
+        "question": "Offrite consegna e ritiro della biancheria a Omiš, Spalato e dintorni?",
+        "answer": "Sì. Ritiriamo e consegniamo la biancheria gratuitamente entro un raggio di 15 km dal nostro stabilimento di Tugare, che comprende Omiš, Dugi Rat, Stanići, Mimice, Krilo Jesenice, Podstrana e i sobborghi di Spalato. Per le località più lontane sulla Riviera di Makarska e a Spalato organizziamo la consegna secondo un calendario."
+      },
+      {
+        "question": "Lavate biancheria e asciugamani per appartamenti e case vacanza?",
+        "answer": "Appartamenti e ville sono la nostra priorità. Siamo specializzati nel lavaggio, asciugatura e stiratura di set di biancheria, lenzuola, federe e asciugamani per i gestori sulla Riviera di Poljica. In stagione offriamo un rapido ricambio tra le prenotazioni con tempi di lavorazione di 24 ore, così le vostre unità sono sempre pronte per nuovi ospiti."
+      },
+      {
+        "question": "Quanto velocemente posso riavere la mia biancheria?",
+        "answer": "I tempi di lavorazione standard sono di 24 ore. Per le situazioni urgenti offriamo la consegna in giornata, ideale quando in un appartamento o in una villa si verifica un cambio ospiti non previsto. Il servizio express viene addebitato con un supplemento sul prezzo base."
+      },
+      {
+        "question": "Collaborate con hotel, ristoranti e altre attività ricettive?",
+        "answer": "Sì. Oltre agli appartamenti, curiamo regolarmente i tessuti per hotel, ristoranti, taverne e bar nei dintorni di Omiš e Spalato — tovaglie, tovaglioli, abbigliamento da lavoro, divise e strofinacci da cucina. Per le attività ricettive offriamo pacchetti mensili a prezzo fisso e con un calendario di ritiro regolare."
+      },
+      {
+        "question": "Offrite il lavaggio a secco di materiali delicati?",
+        "answer": "Sì. Oltre alla lavanderia industriale eseguiamo anche il lavaggio a secco di tende, tappeti, coperte, piumini e tessuti delicati che non possono essere lavati in modo tradizionale. Tappeti e tende possiamo ritirarli e riconsegnarli insieme alla vostra consegna regolare di biancheria."
+      },
+      {
+        "question": "Utilizzate detergenti ecologici?",
+        "answer": "Sì. Su richiesta laviamo con prodotti ecologici sicuri per bambini, allergici e pelli sensibili, risparmiando al contempo acqua ed energia. Questo è particolarmente apprezzato dalle famiglie con bambini e dai gestori che desiderano offrire agli ospiti tessuti igienicamente impeccabili ma delicati."
+      },
+      {
+        "question": "Come viene determinato il prezzo e ci sono sconti per i clienti abituali?",
+        "answer": "I prezzi sono trasparenti e indicati per voce nel nostro listino, e tutti includono l'IVA. I clienti abituali — appartamenti, ville e attività ricettive — ottengono fino al 15% di sconto tramite abbonamento annuale e pacchetti mensili fissi. Per volumi maggiori e collaborazioni stagionali prepariamo un preventivo su misura."
+      },
+      {
+        "question": "Qual è il vostro orario di lavoro?",
+        "answer": "Lo stabilimento di Tugare è aperto dal lunedì al venerdì dalle 08:00 alle 18:00 e il sabato dalle 08:00 alle 14:00, mentre la domenica è chiuso. Lo stato attuale dello stabilimento in base all'orario di lavoro è visibile in tempo reale sul sito, nella sezione Posizione."
+      },
+      {
+        "question": "Come posso richiedere un preventivo o concordare una collaborazione?",
+        "answer": "Compilate il modulo di richiesta nella sezione Contatto oppure chiamateci al +385 21 123 456 o scrivete a info@lessive-tugare.hr. Vi risponderemo con un preventivo su misura per tipo di tessuto, quantità e tempi, sia che gestiate un singolo appartamento sia un intero portafoglio di unità ricettive."
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Richiedi un preventivo",
+    "annotation": "MODULO DI RICHIESTA / RICHIESTA DI PREVENTIVO",
+    "directLabel": "OPPURE CONTATTACI DIRETTAMENTE",
+    "nameLabel": "Nome e cognome",
+    "required": "Obbligatorio",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefono",
+    "optional": "Facoltativo",
+    "messageLabel": "Descrizione delle esigenze",
+    "messagePlaceholder": "Descrivete l'ambito del lavoro, il tipo di tessuto, le quantità e le scadenze",
+    "submit": "INVIA RICHIESTA"
+  },
+  "quickContacts": {
+    "call": "CHIAMA",
+    "sms": "SMS",
+    "whatsapp": "WHATSAPP",
+    "viber": "VIBER",
+    "instagram": "INSTAGRAM"
+  },
+  "mobileCallBar": {
+    "call": "CHIAMA",
+    "whatsapp": "WHATSAPP"
+  },
+  "facilityStatus": {
+    "checking": "VERIFICA STATO",
+    "open": "APERTO",
+    "closed": "CHIUSO"
+  },
+  "referenceNumber": {
+    "label": "NUMERO DI RIFERIMENTO RICHIESTA"
+  },
+  "reviews": {
+    "heading": "Cosa dicono i nostri clienti",
+    "annotation": "VALUTAZIONI E RACCOMANDAZIONI DEI CLIENTI",
+    "ratingLabel": "VALUTAZIONE MEDIA",
+    "outOf": "su 5",
+    "basedOn": "in base a {count} recensioni",
+    "items": [
+      {
+        "author": "Ana Kovačević",
+        "location": "Appartamenti, Omiš",
+        "rating": 5,
+        "quote": "In alta stagione la biancheria e gli asciugamani tornano sempre puntuali. Posso accogliere gli ospiti senza preoccuparmi del lavaggio tra una prenotazione e l'altra."
+      },
+      {
+        "author": "Marko Babić",
+        "location": "Villa con piscina, Stanići",
+        "rating": 5,
+        "quote": "Il ricambio express in giornata mi ha salvato una prenotazione. La biancheria era pronta prima ancora che arrivassero gli ospiti."
+      },
+      {
+        "author": "Ivana Perić",
+        "location": "Gestrice, Dugi Rat",
+        "rating": 5,
+        "quote": "Su richiesta utilizzano prodotti ecologici — gli ospiti commentano spesso quanto i tessuti profumino di fresco e gradevole, senza odori aggressivi."
+      },
+      {
+        "author": "Konoba Lavanda",
+        "location": "Ristorante, Omiš",
+        "rating": 4,
+        "quote": "Tovaglie e tovaglioli sono sempre impeccabili, e il pacchetto mensile a prezzo fisso ci semplifica molto la pianificazione dei costi."
+      },
+      {
+        "author": "Hotel Nautica",
+        "location": "Hotel, Spalato",
+        "rating": 5,
+        "quote": "Passare a un unico fornitore ha uniformato la qualità della biancheria in tutte le camere e ridotto i costi. Sono affidabili e costanti."
+      },
+      {
+        "author": "Petra Marić",
+        "location": "Appartamenti, Podstrana",
+        "rating": 5,
+        "quote": "Il ritiro e la consegna mi fanno risparmiare ore ogni settimana. Sono professionali, puntuali e sempre disponibili per accordarsi."
+      }
+    ]
+  }
+}
