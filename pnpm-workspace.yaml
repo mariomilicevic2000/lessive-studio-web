@@ -1,4 +1,2 @@
-allowBuilds:
-  '@parcel/watcher': false
-  '@swc/core': false
-  unrs-resolver: set this to true or false
+onlyBuiltDependencies:
+  - unrs-resolver
