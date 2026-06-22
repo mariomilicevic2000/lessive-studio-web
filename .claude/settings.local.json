@@ -13,7 +13,10 @@
       "Bash(node tmp_screenshot.mjs)",
       "PowerShell(pnpm add next-intl)",
       "WebSearch",
-      "Bash(pnpm add *)"
+      "Bash(pnpm add *)",
+      "Bash(pnpm --version)",
+      "Bash(pnpm config *)",
+      "Read(//c/Users/velim/**)"
     ]
   }
 }
