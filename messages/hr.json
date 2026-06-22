@@ -36,7 +36,13 @@
   "header": {
     "cta": "ZATRAŽITE PONUDU",
     "menu": "Izbornik",
-    "language": "Jezik"
+    "language": "Jezik",
+    "theme": "Promijeni temu"
+  },
+  "a11y": {
+    "skipToContent": "Prijeđi na glavni sadržaj",
+    "primaryNav": "Glavna navigacija",
+    "sectionNav": "Odjeljci stranice"
   },
   "hero": {
     "imageAlt": "Industrijski pogon za pranje rublja",

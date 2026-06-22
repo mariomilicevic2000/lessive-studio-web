@@ -36,7 +36,13 @@
   "header": {
     "cta": "REQUEST A QUOTE",
     "menu": "Menu",
-    "language": "Language"
+    "language": "Language",
+    "theme": "Toggle theme"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "primaryNav": "Primary",
+    "sectionNav": "Page sections"
   },
   "hero": {
     "imageAlt": "Industrial laundry facility",

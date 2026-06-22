@@ -1,5 +1,7 @@
-import { getTranslations } from "next-intl/server"
+import { getLocale, getTranslations } from "next-intl/server"
 import Reveal from "@/components/ui/reveal"
+import { localeUrl } from "@/lib/site"
+import type { Locale } from "@/i18n/routing"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 
 interface FaqItem {
@@ -9,11 +11,15 @@ interface FaqItem {
 
 export default async function Faq() {
   const t = await getTranslations("faq")
+  const locale = (await getLocale()) as Locale
   const items = t.raw("items") as FaqItem[]
 
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
+    "@id": `${localeUrl(locale)}#faq`,
+    inLanguage: locale,
+    isPartOf: { "@id": `${localeUrl(locale)}#webpage` },
     mainEntity: items.map((item) => ({
       "@type": "Question",
       name: item.question,

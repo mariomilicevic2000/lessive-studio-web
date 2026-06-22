@@ -10,6 +10,7 @@ import SiteFooter from "@/components/layout/site-footer"
 import MobileCallBar from "@/components/ui/mobile-call-bar"
 import StructuredData from "@/components/structured-data"
 import LenisProvider from "@/components/providers/lenis-provider"
+import { ThemeProvider } from "@/components/theme-provider"
 import ScrollSpy from "@/components/ui/scroll-spy"
 import { routing, type Locale } from "@/i18n/routing"
 import { hreflangMap, localeUrl, ogLocales } from "@/lib/site"
@@ -130,21 +131,39 @@ export default async function LocaleLayout({
   // Enable static rendering for this locale.
   setRequestLocale(locale)
   const messages = await getMessages()
+  const tA11y = await getTranslations({ locale, namespace: "a11y" })
 
   return (
-    <html lang={locale} className={`${inter.variable} ${ibmPlexMono.variable}`}>
+    <html
+      lang={locale}
+      className={`${inter.variable} ${ibmPlexMono.variable}`}
+      suppressHydrationWarning
+    >
       <body className="font-sans antialiased pb-[calc(4rem+env(safe-area-inset-bottom))] md:pb-0">
-        <NextIntlClientProvider messages={messages}>
-          <LenisProvider>
-            <StructuredData locale={locale as Locale} />
-            <div className="grain-overlay" aria-hidden="true" />
-            <SiteHeader />
-            <ScrollSpy />
-            {children}
-            <SiteFooter />
-            <MobileCallBar />
-          </LenisProvider>
-        </NextIntlClientProvider>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <NextIntlClientProvider messages={messages}>
+            <LenisProvider>
+              <StructuredData locale={locale as Locale} />
+              <a
+                href="#main-content"
+                className="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[100] focus:bg-foreground focus:px-4 focus:py-2 focus:text-background focus:outline-none focus:ring-2 focus:ring-ring spec-table text-xs"
+              >
+                {tA11y("skipToContent")}
+              </a>
+              <div className="grain-overlay" aria-hidden="true" />
+              <SiteHeader />
+              <ScrollSpy />
+              {children}
+              <SiteFooter />
+              <MobileCallBar />
+            </LenisProvider>
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   )

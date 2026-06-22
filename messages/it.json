@@ -36,7 +36,13 @@
   "header": {
     "cta": "RICHIEDI UN PREVENTIVO",
     "menu": "Menu",
-    "language": "Lingua"
+    "language": "Lingua",
+    "theme": "Cambia tema"
+  },
+  "a11y": {
+    "skipToContent": "Vai al contenuto principale",
+    "primaryNav": "Navigazione principale",
+    "sectionNav": "Sezioni della pagina"
   },
   "hero": {
     "imageAlt": "Lavanderia industriale",

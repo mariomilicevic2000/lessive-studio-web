@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
 import { Menu, X } from "lucide-react"
 import LanguageSwitcher from "@/components/layout/language-switcher"
+import ThemeToggle from "@/components/ui/theme-toggle"
 
 const navItems = [
   { href: "#usluge", key: "services" },
@@ -22,6 +23,7 @@ const navItems = [
 export default function SiteHeader() {
   const t = useTranslations("nav")
   const tHeader = useTranslations("header")
+  const tA11y = useTranslations("a11y")
   const [isOpen, setIsOpen] = useState(false)
 
   return (
@@ -37,7 +39,7 @@ export default function SiteHeader() {
         </Link>
 
         {/* Centered nav */}
-        <nav className="hidden md:flex gap-8 justify-self-center">
+        <nav aria-label={tA11y("primaryNav")} className="hidden md:flex gap-8 justify-self-center">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -51,6 +53,7 @@ export default function SiteHeader() {
 
         {/* CTA + language + mobile trigger */}
         <div className="flex items-center justify-self-end gap-3">
+          <ThemeToggle className="hidden md:inline-flex" />
           <LanguageSwitcher variant="dropdown" className="hidden md:flex" />
           <Button
             asChild
@@ -82,7 +85,7 @@ export default function SiteHeader() {
               className="flex w-[300px] max-w-[85vw] flex-col gap-0 border-l-[1px] border-foreground bg-background p-0"
             >
               <SheetTitle className="sr-only">{tHeader("menu")}</SheetTitle>
-              <nav className="flex flex-1 flex-col gap-1 overflow-y-auto px-6 pt-16 pb-6">
+              <nav aria-label={tA11y("primaryNav")} className="flex flex-1 flex-col gap-1 overflow-y-auto px-6 pt-16 pb-6">
                 {navItems.map((item) => (
                   <Link
                     key={item.href}
@@ -95,6 +98,10 @@ export default function SiteHeader() {
                 ))}
               </nav>
               <div className="border-t-[1px] border-border px-6 pb-[calc(1.5rem+env(safe-area-inset-bottom))] pt-6">
+                <div className="mb-6 flex items-center justify-between">
+                  <span className="annotation text-muted-foreground">{tHeader("theme")}</span>
+                  <ThemeToggle className="border border-border" />
+                </div>
                 <div className="annotation text-muted-foreground mb-3">{tHeader("language")}</div>
                 <LanguageSwitcher className="flex-col items-stretch gap-2" />
               </div>

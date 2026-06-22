@@ -1,6 +1,8 @@
 "use client"
 
 import dynamic from "next/dynamic"
+import { useEffect, useState } from "react"
+import { useTheme } from "next-themes"
 import "leaflet/dist/leaflet.css"
 
 const MapContainer = dynamic(() => import("react-leaflet").then((mod) => mod.MapContainer), { ssr: false })
@@ -33,8 +35,18 @@ const SETTLEMENTS: { name: string; position: [number, number] }[] = [
 ]
 
 export default function LocationMap() {
+  const { resolvedTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => setMounted(true), [])
+
+  // Until the theme resolves on the client, fall back to the light palette so
+  // the server render and first paint stay consistent.
+  const isDark = mounted && resolvedTheme === "dark"
+  const markerColor = isDark ? "#e7e3dd" : "#000000"
+
   return (
-    <div className="h-[400px] w-full grayscale">
+    <div className={`h-[400px] w-full grayscale${isDark ? " leaflet-dark" : ""}`}>
       <MapContainer
         center={FACILITY_POSITION}
         zoom={11}
@@ -47,14 +59,14 @@ export default function LocationMap() {
         />
         <Polygon
           positions={DELIVERY_ZONE}
-          pathOptions={{ color: "#000000", weight: 2, dashArray: "6 6", fillOpacity: 0.05 }}
+          pathOptions={{ color: markerColor, weight: 2, dashArray: "6 6", fillOpacity: 0.05 }}
         />
         {SETTLEMENTS.map((settlement) => (
           <CircleMarker
             key={settlement.name}
             center={settlement.position}
             radius={4}
-            pathOptions={{ color: "#000000", fillColor: "#000000", fillOpacity: 0.6, weight: 1 }}
+            pathOptions={{ color: markerColor, fillColor: markerColor, fillOpacity: 0.6, weight: 1 }}
           >
             <Tooltip direction="top" offset={[0, -4]} opacity={1}>
               {settlement.name}
@@ -64,7 +76,7 @@ export default function LocationMap() {
         <CircleMarker
           center={FACILITY_POSITION}
           radius={6}
-          pathOptions={{ color: "#000000", fillColor: "#000000", fillOpacity: 1 }}
+          pathOptions={{ color: markerColor, fillColor: markerColor, fillOpacity: 1 }}
         >
           <Tooltip direction="top" offset={[0, -6]} opacity={1}>
             Tugare

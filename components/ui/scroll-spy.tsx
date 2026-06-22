@@ -19,6 +19,7 @@ const sections = [
 
 export default function ScrollSpy() {
   const t = useTranslations("nav")
+  const tA11y = useTranslations("a11y")
   const lenis = useLenis()
   const [activeId, setActiveId] = useState<string>("hero")
   const ratiosRef = useRef<Map<string, number>>(new Map())
@@ -62,7 +63,7 @@ export default function ScrollSpy() {
 
   return (
     <nav
-      aria-label={t("services")}
+      aria-label={tA11y("sectionNav")}
       className="fixed right-6 top-1/2 z-30 hidden -translate-y-1/2 lg:flex mix-blend-difference"
     >
       <ol className="flex flex-col items-end gap-4">
@@ -74,6 +75,7 @@ export default function ScrollSpy() {
                 type="button"
                 onClick={() => handleClick(section.id)}
                 aria-current={isActive ? "true" : undefined}
+                aria-label={t(section.key)}
                 className="group flex items-center gap-3 py-1"
               >
                 <span

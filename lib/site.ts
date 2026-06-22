@@ -26,6 +26,14 @@ export const siteConfig = {
     lng: 16.65102507574296,
   },
   deliveryRadiusKm: 15,
+  // Organization logo (square) and a representative photo, both used in JSON-LD
+  // so Google can surface a logo and a primary image for the listing.
+  logo: "/icon.svg",
+  primaryImage: "/industrial_laundry_machines_wide.png",
+  // BCP-47 codes the business communicates in — matches the UI locales.
+  knowsLanguage: ["hr", "en", "de", "it"],
+  // Verified public profiles. Drives the schema.org `sameAs` entity links.
+  sameAs: ["https://instagram.com/lessivestudio"],
   // Places we want to rank for — used in areaServed + keywords.
   areaServed: [
     "Tugare",

@@ -17,7 +17,9 @@
       "Bash(pnpm --version)",
       "Bash(pnpm config *)",
       "Read(//c/Users/velim/**)",
-      "Bash(pnpm run *)"
+      "Bash(pnpm run *)",
+      "Bash(pnpm build *)",
+      "Bash(node .theme-check.mjs)"
     ]
   }
 }

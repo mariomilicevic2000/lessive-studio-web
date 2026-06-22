@@ -1,23 +1,55 @@
 import { getTranslations } from "next-intl/server"
-import { serviceOfferings, siteConfig } from "@/lib/site"
+import { localeUrl, serviceOfferings, siteConfig } from "@/lib/site"
 import { computeAggregate, type Review } from "@/lib/reviews"
 import type { Locale } from "@/i18n/routing"
 
-// Sitewide JSON-LD: a DryCleaningOrLaundry LocalBusiness (the most specific
-// schema.org type for this trade) plus a WebSite node. The aggregate rating +
-// reviews drive star rich-results; the FAQPage schema is emitted separately by
-// the FAQ section so it stays next to its content.
+// Sitewide JSON-LD emitted as a single connected @graph so every node is linked
+// by @id — the relationship-rich form Google rewards. Nodes:
+//   #business   DryCleaningOrLaundry (the most specific LocalBusiness type)
+//   #logo       Organization logo (ImageObject)
+//   #primaryimage  the page's primary photo (ImageObject)
+//   #website    WebSite, published by the business
+//   #webpage    the (per-locale) homepage, part of the website
+//   #breadcrumb BreadcrumbList for the homepage
+// The aggregate rating + reviews drive star rich-results. FAQPage schema is
+// emitted by the FAQ section so it stays next to its content, but it links back
+// into this graph via isPartOf → #webpage.
 export default async function StructuredData({ locale }: { locale: Locale }) {
   const t = await getTranslations({ locale, namespace: "meta" })
   const tReviews = await getTranslations({ locale, namespace: "reviews" })
+  const tNav = await getTranslations({ locale, namespace: "nav" })
   const description = t("description")
+
+  const pageUrl = localeUrl(locale)
   const businessId = `${siteConfig.url}/#business`
+  const websiteId = `${siteConfig.url}/#website`
+  const logoId = `${siteConfig.url}/#logo`
+  const primaryImageId = `${siteConfig.url}/#primaryimage`
+  const webpageId = `${pageUrl}#webpage`
+  const breadcrumbId = `${pageUrl}#breadcrumb`
 
   const reviews = tReviews.raw("items") as Review[]
   const aggregate = computeAggregate(reviews)
 
+  const logo = {
+    "@type": "ImageObject",
+    "@id": logoId,
+    url: `${siteConfig.url}${siteConfig.logo}`,
+    contentUrl: `${siteConfig.url}${siteConfig.logo}`,
+    caption: siteConfig.name,
+  }
+
+  const primaryImage = {
+    "@type": "ImageObject",
+    "@id": primaryImageId,
+    url: `${siteConfig.url}${siteConfig.primaryImage}`,
+    contentUrl: `${siteConfig.url}${siteConfig.primaryImage}`,
+    width: 1200,
+    height: 630,
+    caption: t("ogImageAlt"),
+  }
+
   const localBusiness = {
-    "@context": "https://schema.org",
     "@type": "DryCleaningOrLaundry",
     "@id": businessId,
     name: siteConfig.name,
@@ -26,9 +58,12 @@ export default async function StructuredData({ locale }: { locale: Locale }) {
     url: siteConfig.url,
     telephone: siteConfig.telephone,
     email: siteConfig.email,
-    image: `${siteConfig.url}/industrial_laundry_machines_wide.png`,
+    image: { "@id": primaryImageId },
+    logo: { "@id": logoId },
     priceRange: "€€",
     currenciesAccepted: "EUR",
+    knowsLanguage: siteConfig.knowsLanguage,
+    sameAs: siteConfig.sameAs,
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.address.street,
@@ -43,6 +78,14 @@ export default async function StructuredData({ locale }: { locale: Locale }) {
       longitude: siteConfig.geo.lng,
     },
     hasMap: `https://www.openstreetmap.org/?mlat=${siteConfig.geo.lat}&mlon=${siteConfig.geo.lng}#map=15/${siteConfig.geo.lat}/${siteConfig.geo.lng}`,
+    contactPoint: {
+      "@type": "ContactPoint",
+      contactType: "customer service",
+      telephone: siteConfig.telephone,
+      email: siteConfig.email,
+      areaServed: siteConfig.address.country,
+      availableLanguage: siteConfig.knowsLanguage,
+    },
     areaServed: siteConfig.areaServed.map((name) => ({
       "@type": "Place",
       name,
@@ -70,6 +113,8 @@ export default async function StructuredData({ locale }: { locale: Locale }) {
         itemOffered: {
           "@type": "Service",
           name: service,
+          serviceType: service,
+          provider: { "@id": businessId },
         },
       })),
     },
@@ -94,9 +139,8 @@ export default async function StructuredData({ locale }: { locale: Locale }) {
   }
 
   const website = {
-    "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": `${siteConfig.url}/#website`,
+    "@id": websiteId,
     url: siteConfig.url,
     name: siteConfig.name,
     description,
@@ -104,16 +148,41 @@ export default async function StructuredData({ locale }: { locale: Locale }) {
     publisher: { "@id": businessId },
   }
 
+  const webpage = {
+    "@type": "WebPage",
+    "@id": webpageId,
+    url: pageUrl,
+    name: t("title"),
+    description,
+    inLanguage: locale,
+    isPartOf: { "@id": websiteId },
+    about: { "@id": businessId },
+    primaryImageOfPage: { "@id": primaryImageId },
+    breadcrumb: { "@id": breadcrumbId },
+  }
+
+  const breadcrumb = {
+    "@type": "BreadcrumbList",
+    "@id": breadcrumbId,
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: tNav("hero"),
+        item: pageUrl,
+      },
+    ],
+  }
+
+  const graph = {
+    "@context": "https://schema.org",
+    "@graph": [logo, primaryImage, localBusiness, website, webpage, breadcrumb],
+  }
+
   return (
-    <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusiness) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }}
-      />
-    </>
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(graph) }}
+    />
   )
 }

@@ -16,7 +16,9 @@ export default async function Contact() {
           {/* Content */}
           <Reveal className="space-y-8 max-w-2xl">
             <div className="space-y-3">
-              <h2 className="procedural-heading text-2xl md:text-4xl text-foreground">{t("heading")}</h2>
+              <h2 id="contact-heading" className="procedural-heading text-2xl md:text-4xl text-foreground">
+                {t("heading")}
+              </h2>
               <p className="annotation text-muted-foreground">{t("annotation")}</p>
             </div>
 
@@ -27,7 +29,7 @@ export default async function Contact() {
             </div>
 
             {/* Form */}
-            <form className="space-y-6 border-t-[1px] border-border pt-8">
+            <form aria-labelledby="contact-heading" className="space-y-6 border-t-[1px] border-border pt-8">
               <ReferenceNumber />
 
               <div className="grid md:grid-cols-2 gap-6">
@@ -37,7 +39,11 @@ export default async function Contact() {
                   </label>
                   <input
                     id="name"
+                    name="name"
                     type="text"
+                    autoComplete="name"
+                    required
+                    aria-required="true"
                     className="w-full thin-border bg-background px-4 py-3 text-foreground focus:outline-none focus:border-foreground transition-colors spec-table"
                     placeholder={t("required")}
                   />
@@ -48,7 +54,11 @@ export default async function Contact() {
                   </label>
                   <input
                     id="email"
+                    name="email"
                     type="email"
+                    autoComplete="email"
+                    required
+                    aria-required="true"
                     className="w-full thin-border bg-background px-4 py-3 text-foreground focus:outline-none focus:border-foreground transition-colors spec-table"
                     placeholder={t("required")}
                   />
@@ -61,7 +71,9 @@ export default async function Contact() {
                 </label>
                 <input
                   id="phone"
+                  name="phone"
                   type="tel"
+                  autoComplete="tel"
                   className="w-full thin-border bg-background px-4 py-3 text-foreground focus:outline-none focus:border-foreground transition-colors spec-table"
                   placeholder={t("optional")}
                 />
@@ -73,6 +85,7 @@ export default async function Contact() {
                 </label>
                 <textarea
                   id="message"
+                  name="message"
                   rows={6}
                   className="w-full thin-border bg-background px-4 py-3 text-foreground focus:outline-none focus:border-foreground transition-colors spec-table resize-none"
                   placeholder={t("messagePlaceholder")}

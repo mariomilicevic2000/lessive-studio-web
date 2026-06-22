@@ -36,7 +36,13 @@
   "header": {
     "cta": "ANGEBOT ANFORDERN",
     "menu": "Menü",
-    "language": "Sprache"
+    "language": "Sprache",
+    "theme": "Thema wechseln"
+  },
+  "a11y": {
+    "skipToContent": "Zum Hauptinhalt springen",
+    "primaryNav": "Hauptnavigation",
+    "sectionNav": "Seitenabschnitte"
   },
   "hero": {
     "imageAlt": "Industriewäscherei",
